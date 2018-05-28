@@ -1,0 +1,16 @@
+footer {
+  width: 100%;
+  height: 15%;
+  margin-top: 3%;
+  border-top: 1px solid #ccc;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #333;
+  line-height: 140%;
+  position: absolute; }
+
+/*# sourceMappingURL=footer.css.map */
