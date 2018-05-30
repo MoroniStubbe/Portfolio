@@ -91,51 +91,16 @@ body {
     height: 14%;
   }
 
-  main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  main{
+    align-content: center;
+    img{
 
-    text-align: center;
-
-    .fadeShow {
-      width: 100%;
-
-      display: flex;
-      flex-direction: row;
-
-      img {
-        width: 100%;
-        height: 86vh;
-        opacity: 1;
-      }
     }
+    h1{
 
-    .gallery {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      flex-direction: row;
+    }
+    p{
 
-      .gallery-item{
-        width: 40%;
-        margin: 3%;
-
-        a{
-
-          img{
-            width: 100%;
-          }
-        }
-        h3{
-
-        }
-        p{
-
-        }
-      }
     }
   }
 
