@@ -1,0 +1,38 @@
+::-webkit-scrollbar {
+  display: none; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #333;
+  line-height: 140%; }
+  body main {
+    width: 70%;
+    margin: 0 auto; }
+    body main form {
+      width: 50%;
+      display: inline-block; }
+      body main form div {
+        width: 100%;
+        padding: 1% 0; }
+        body main form div label {
+          width: 100%; }
+        body main form div input {
+          width: 100%;
+          padding: 1%;
+          font-size: larger; }
+        body main form div textarea {
+          width: 550px;
+          height: 200px; }
+    body main p {
+      margin: 2%;
+      font-size: x-large;
+      line-height: 1.3em;
+      display: inline-block;
+      float: right; }
+
+/*# sourceMappingURL=contact.css.map */

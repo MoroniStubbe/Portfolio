@@ -1,0 +1,34 @@
+::-webkit-scrollbar {
+  display: none; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #333;
+  line-height: 140%; }
+  body main {
+    width: 60%;
+    margin: 0 auto; }
+    body main div {
+      width: 100%;
+      height: 70%;
+      margin: 3% 0; }
+      body main div h2 {
+        width: 100%;
+        display: inline-block; }
+      body main div div {
+        width: 100%;
+        margin: 0; }
+        body main div div img {
+          width: 100%; }
+        body main div div p {
+          width: 100%; }
+          body main div div p a {
+            text-decoration: none;
+            color: mediumpurple; }
+
+/*# sourceMappingURL=interests.css.map */

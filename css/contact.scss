@@ -1,0 +1,57 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #333;
+  line-height: 140%;
+
+  main {
+    width: 70%;
+    margin: 0 auto;
+
+    form {
+      width: 50%;
+      display: inline-block;
+
+      div {
+        width: 100%;
+        padding: 1% 0;
+
+        label{
+          width: 100%;
+
+        }
+        input{
+          width: 100%;
+          padding: 1%;
+
+          font-size: larger;
+        }
+        textarea{
+          width: 550px;
+          height: 200px;
+        }
+      }
+      input{
+
+      }
+    }
+    p {
+      margin: 2%;
+
+      font-size: x-large;
+      line-height: 1.3em;
+
+      display: inline-block;
+      float: right;
+    }
+  }
+}

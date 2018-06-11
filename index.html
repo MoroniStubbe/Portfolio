@@ -1,9 +1,14 @@
+<!--GitHub: https://github.com/MoroniStubbe/Portfolio-->
+<!--Template: http://dessign.net/unittheme/-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 <header>
@@ -12,17 +17,9 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li class="navPortfolio">
-                Portfolio
-                <ul>
-                    <li><a href="">School</a></li>
-                    <li><a href="">HTML</a></li>
-                    <li><a href="">CSS</a></li>
-                    <li><a href="">Javascript</a></li>
-                </ul>
-            </li>
+            <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="">Hobby</a></li>
+            <li><a href="interests.html">Interests</a></li>
         </ul>
     </nav>
 </header>
@@ -31,28 +28,32 @@
 
 <main>
     <div class="fadeShow" onclick="fade()">
-        <img id="fadeImage" src="images/index/underwater.png">
+        <img id="fadeImage" src="images/index/tree.jpg">
     </div>
     <div class="gallery">
         <div class="gallery-item">
-            <a href="https://www.google.com"><img src="images/index/underwater.png"></a>
-            <h3>h3h3h3</h3>
-            <p>paragraaf</p>
+            <a href="portfolio.html#dobbelsteen">
+                <img src="images/portfolio/dobbelsteen.JPG">
+            </a>
+            <h2>Dobbelsteen</h2>
         </div>
         <div class="gallery-item">
-            <a href="https://www.google.com"><img src="images/index/underwater.png"></a>
-            <h3>h3h3h3</h3>
-            <p>paragraaf</p>
+            <a href="portfolio.html#steen-papier-schaar">
+                <img src="images/portfolio/steen-papier-schaar.JPG">
+            </a>
+            <h2>Steen, papier, schaar</h2>
         </div>
         <div class="gallery-item">
-            <a href="https://www.google.com"><img src="images/index/underwater.png"></a>
-            <h3>h3h3h3</h3>
-            <p>paragraaf</p>
+            <a href="portfolio.html#stoplicht">
+                <img src="images/portfolio/stoplicht.JPG">
+            </a>
+            <h2>Stoplicht</h2>
         </div>
         <div class="gallery-item">
-            <a href="https://www.google.com"><img src="images/index/underwater.png"></a>
-            <h3>h3h3h3</h3>
-            <p>paragraaf</p>
+            <a href="portfolio.html#garage">
+                <img src="images/portfolio/garage.JPG">
+            </a>
+            <h2>Garage</h2>
         </div>
     </div>
 </main>
@@ -60,6 +61,7 @@
 <footer>
     <p>© 2017 Techniek College Rotterdam. Developed by Moroni Stubbe.</p>
 </footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
-<script src="script.js"></script>
